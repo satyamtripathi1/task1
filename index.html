@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body{
+            background: url('../Image/pexels-daria-shevtsova-916337.jpg') no-repeat center center/cover;
+     height: 100vh;
+        }
+        #navbar a{
+            color: black;
+            text-decoration: none;
+
+        }
+        #navbar ul{
+             display: flex;
+             list-style: none;
+             padding: 0 20px;
+             
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            height: 60px;
+        }
+        .middle li{
+            margin: 0 20px;
+        }
+        .first-1{
+            padding-right:10px ;
+        }
+        .first-2{
+            padding-left:10px ;
+        }
+        .last{
+            background-color: orangered;
+            box-shadow: 2px orange;
+            padding-top: 5px !important;
+            border-radius: 30px;
+            margin-right: 10px;
+            
+        }
+        .butndiv{
+            padding: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+        
+        }
+        .last a{
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .middle-img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .middle-img img{
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            margin: auto;
+        }
+        .showcase-content{
+            text-align: center;
+        }
+        .divmid1{
+            display: flex;
+            width: 100%;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .middiv2{
+            top: 200px;
+            position: absolute;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav id="navbar">
+        <div class="container">
+            <!-- <h1 class="logo"><a href="index.html">HSP</a></h1> -->
+            <ul class="first">
+                <li class="first-1"  style="border-right: 2px solid black;"><a href="#">||||</a></li>
+                <li class="first-2"><a href="#">J.Carter</a></li>
+            </ul>
+            <ul class="middle">
+                <li><a class="current" href="#">Works</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+            <ul class="last">
+                <li><a style="color: white;" href="#">Buy Template</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="middle-img">
+        <img src="/Image/Person-2.jpg" alt="">
+        
+    </div>
+            <div class="showcase-content">
+                <h4 style="color:red;">Hi, there I am Satyam Tripathi</h4>
+                <h1>A product designer </h1><h2> with passion to web</h2>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Repellendus deleniti repudiandae porro sint, deserunt unde.</p>
+            </div>
+            <div class="middiv2">
+                <div class="divmid1" style="margin-bottom:20px;">
+                    <a href="#" class="butndiv">UI/UX</a>
+                    <a class="butndiv" href="#">Hi there</a>
+                </div>
+                <div class="divmid1" style="margin-bottom:20px;">
+                    <a href="#" class="butndiv">Illustration</a>
+                    <a class="butndiv" href="#">Photography</a>
+                </div>
+                <div class="divmid1" >
+                    <a href="#" class="butndiv">Surfing</a>
+                    <a class="butndiv" href="#">Request a Quote</a>
+                </div>
+            </div>
+</header>
+</body>
+</html>
